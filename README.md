@@ -13,19 +13,19 @@ The simulator outputs the following:
 1. Memory hierarchy configuration and trace filename.
 2. The final contents of all caches.
 3. The following measurements:
-  *  a number of L1 reads
-  b. number of L1 read misses
-  c. number of L1 writes
-  d. number of L1 write misses
-  e. number of swap requests from L1 to its VC
-  f. swap request rate
-  g. number of swaps between L1 and its V
-  h. combined L1+VC miss rate
-  i. number of writebacks from L1 or its VC (if enabled), to next level
-  j. number of L2 reads
-  k. number of L2 read misses
-  l. number of L2 writes
-  m. number of L2 write misses
-  n. L2 miss rate 
-  o. number of writebacks from L2 to memory
-  p. total memory traffic = number of blocks transferred to/from memory
+  * number of L1 reads
+  * number of L1 read misses
+  * number of L1 writes
+  * number of L1 write misses
+  * number of swap requests from L1 to its VC
+  * swap request rate
+  * number of swaps between L1 and its V
+  * combined L1+VC miss rate
+  * number of writebacks from L1 or its VC (if enabled), to next level
+  * number of L2 reads
+  * number of L2 read misses
+  * number of L2 writes
+  * number of L2 write misses
+  * L2 miss rate 
+  * number of writebacks from L2 to memory
+  * total memory traffic = number of blocks transferred to/from memory

@@ -13,14 +13,10 @@ The simulator outputs the following:
 1. Memory hierarchy configuration and trace filename.
 2. The final contents of all caches.
 3. The following measurements:
-  a. number of L1 reads
-  
+  *  a number of L1 reads
   b. number of L1 read misses
-  
   c. number of L1 writes
-  
   d. number of L1 write misses
-  
   e. number of swap requests from L1 to its VC
   f. swap request rate
   g. number of swaps between L1 and its V

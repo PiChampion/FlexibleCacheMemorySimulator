@@ -10,9 +10,9 @@ Write policy: write-back + write-allocate
 Victim cache associativity: Fully associative
 
 The simulator outputs the following:
-1. Memory hierarchy configuration and trace filename.
-2. The final contents of all caches.
-3. The following measurements:
+* Memory hierarchy configuration and trace filename.
+* The final contents of all caches.
+* The following measurements:
   * number of L1 reads
   * number of L1 read misses
   * number of L1 writes

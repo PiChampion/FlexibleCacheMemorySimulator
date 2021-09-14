@@ -1,4 +1,4 @@
-# FlexibleCacheMemorySimulator
+# Flexible Cache Memory Simulator
 
 The project was completed as part of ECE 563 (Microprocessor Architecture) at NC State. In this project, I implemented a flexible cache and memory hierarchy simulator in C++ and used it to compare the performance, area, and energy of different memory hierarchy configurations.
 

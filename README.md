@@ -4,12 +4,12 @@ The project was completed as part of ECE 563 (Microprocessor Architecture) at NC
 
 The simulator is able to simulate any combination of an L1 Cache, L1 Victim Cache, and L2 Cache. Command-line parameters which govern the specifics of the memory being simulated include block size, L1 cache size, L1 cache associativity, number of victim cache blocks, L2 cache size, and L2 cache associativity.
 
-Memory Heirarchy specifications:
+###Memory Heirarchy specifications:
 Replacement Policy: LRU
 Write policy: write-back + write-allocate
 Victim cache associativity: Fully associative
 
-The simulator outputs the following:
+###The simulator outputs the following:
 * Memory hierarchy configuration and trace filename.
 * The final contents of all caches.
 * The following measurements:
